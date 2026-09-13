@@ -4,170 +4,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammad Shadman Abedin's Personal Profile</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Source+Serif+4:wght@400;500;600;700&amp;display=swap"
-        rel="stylesheet">
+
+    <title>Mohammad Shadman Abedin - Personal Profile</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="site-header">
-        <div class="wrap header-inner">
-            <p class="wordmark">Mohammad Shadman Abedin</p>
-            <nav aria-label="Primary">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1>Mohammad Shadman Abedin</h1>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
 
+
     <main>
 
-        <!-- HERO -->
+        <!-- Hero -->
         <section class="hero">
-            <div class="wrap hero-inner">
-                <div class="hero-text">
-                    <h1>Hi, I'm <span>Mohammad Shadman Abedin</span>.<br>I build things for the web.</h1>
-                    <p class="hero-lede">I'm a 2nd-year Computer Science and Engineering(CSE) student at IIUC, learning
-                        to turn vision into reality, one small project at a time.</p>
-                    <a class="btn" href="#contact">Get in touch</a>
-                </div>
-                <div class="hero-image">
-                    <img src="images/iiuc-library.jpg" alt="Exterior view of the IIUC Library">
-                    <p class="hero-caption">IIUC Library — my campus</p>
-                </div>
+
+            <div class="hero-text">
+                <p class="intro">HELLO, I'M</p>
+
+                <h2>Mohammad Shadman Abedin</h2>
+
+                <p>
+                    A Computer Science and Engineering student interested
+                    in programming, software development and building things
+                    for the web.
+                </p>
+
+                <a class="button" href="#contact">Get In Touch</a>
             </div>
+
+            <div class="hero-image">
+                <img src="images/iiuc-library.jpg"
+                     alt="IIUC Library campus">
+            </div>
+
         </section>
 
-        <!-- ABOUT -->
+
+        <!-- About -->
         <section id="about" class="about">
-            <div class="wrap about-inner">
-                <img src="images/profile2.jpg" alt="Shadman's profile photo" width="400" height="400">
 
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I'm a Software Development student focused on building a strong foundation in programming and
-                        software development. I work with HTML, CSS, Python, and C++, and I'm developing my
-                        understanding of object-oriented programming, problem solving, and how different parts of a
-                        software system fit together.</p>
-
-                    <p>This website is a class project and a practical step in applying what I learn beyond the
-                        classroom — building with semantic HTML, CSS, and a focus on writing clean, structured code.</p>
-
-                    <p>I'm continuously exploring new concepts, working on small projects, and learning how to turn
-                        ideas into reliable and well-structured software.</p>
-
-                </div>
+            <div class="section-title">
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
             </div>
-        </section>
 
-        <!-- SKILLS -->
-        <section id="skills" class="skills">
-            <div class="wrap">
-                <h2>Skills</h2>
-                <ul class="skills-grid">
-                    <li class="skill-card">
-                        <h3>HTML</h3>
-                        <p>Building clear, semantic web page structures.</p>
-                    </li>
-                    <li class="skill-card">
-                        <h3>CSS</h3>
-                        <p>Creating responsive layouts and polished interfaces.</p>
-                    </li>
-                    <li class="skill-card">
-                        <h3>C++</h3>
-                        <p>Writing efficient programs and problem-solving solutions.</p>
-                    </li>
-                    <li class="skill-card">
-                        <h3>Python</h3>
-                        <p>Developing practical scripts and applications.</p>
-                    </li>
-                    <li class="skill-card">
-                        <h3>Object-Oriented Programming</h3>
-                        <p>Organizing code with reusable classes and objects.</p>
-                    </li>
-                    <li class="skill-card">
-                        <h3>Competitive Programming</h3>
-                        <p>Practicing algorithms, data structures, and fast problem solving.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            <div class="about-content">
 
-        <!-- PROJECTS -->
-        <section id="projects" class="projects">
-            <div class="wrap">
-                <h2>Projects</h2>
-                <div class="project-grid">
-                    <article class="project-card">
-                        <img src="images/duckhunt.jpg" alt="Screenshot of the Duck Shooting Game">
-                        <div class="project-body">
-                            <h3>Duck Shooting Game</h3>
-                            <p>A duck shooting game built with Raylib and C.</p>
-                            <a href="https://github.com/MohammadShadmanAbedin/Duck-Shooting-Game-Using-Raylib-and-C"
-                                target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                                <br>
-                            <a href="https://youtu.be/IwY0Ty4b0aY?si=Cf0bc5TLVP-tRqb7" target="_blank"
-                                rel="noopener noreferrer">Watch gameplay on YouTube</a>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <img src="images/profile2.jpg" alt="Front view of my website">
+                <img src="images/profile2.jpg"
+                     alt="Profile photo of Mohammad Shadman Abedin">
 
-                        <div class="project-body">
-                            <h3>Personal Profile Page</h3>
-                            <p>This very site — a single-page profile built with semantic HTML5 and hand-written CSS,
-                                deployed live as a class assignment for CSE-2340.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+                <div>
+                    <p>
+                        I am a 2nd-year Computer Science and Engineering
+                        student at IIUC. I am interested in programming and
+                        software development and I enjoy learning by building
+                        small projects.
+                    </p>
 
-        <!-- CONTACT -->
-        <section id="contact" class="contact">
-            <div class="wrap contact-inner">
-                <div class="contact-text">
-                    <h2>Contact</h2>
-                    <p>Have a question or want to work together? Send a message, or reach me directly by email.</p>
-                    <p class="contact-email">
-                        <a href="mailto:shadmanofficial3458@gmail.com">shadmanofficial3458@gmail.com</a>
+                    <p>
+                        I currently work with HTML, CSS, Python and C++,
+                        while improving my understanding of object-oriented
+                        programming and problem solving.
                     </p>
                 </div>
-                <form class="contact-form" action="#" method="post">
-                    <div class="form-row">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-row">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-row">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send message</button>
-                </form>
+
             </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="skills">
+
+            <div class="section-title">
+                <p>WHAT I WORK WITH</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill">
+                    <span>01</span>
+                    <h3>HTML</h3>
+                    <p>Creating structured and semantic web pages.</p>
+                </div>
+
+                <div class="skill">
+                    <span>02</span>
+                    <h3>CSS</h3>
+                    <p>Designing responsive and attractive interfaces.</p>
+                </div>
+
+                <div class="skill">
+                    <span>03</span>
+                    <h3>C++</h3>
+                    <p>Building programs and solving programming problems.</p>
+                </div>
+
+                <div class="skill">
+                    <span>04</span>
+                    <h3>Python</h3>
+                    <p>Writing scripts and exploring practical applications.</p>
+                </div>
+
+                <div class="skill">
+                    <span>05</span>
+                    <h3>OOP</h3>
+                    <p>Working with classes, objects and reusable code.</p>
+                </div>
+
+                <div class="skill">
+                    <span>06</span>
+                    <h3>Problem Solving</h3>
+                    <p>Practicing algorithms and logical thinking.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="projects">
+
+            <div class="section-title">
+                <p>WHAT I'VE BUILT</p>
+                <h2>My Projects</h2>
+            </div>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+
+                    <img src="images/duckhunt.jpg"
+                         alt="Duck Shooting Game">
+
+                    <div class="project-content">
+                        <p class="project-number">PROJECT 01</p>
+
+                        <h3>Duck Shooting Game</h3>
+
+                        <p>
+                            A simple duck shooting game developed using
+                            Raylib and C.
+                        </p>
+
+                        <a href="https://github.com/MohammadShadmanAbedin/Duck-Shooting-Game-Using-Raylib-and-C"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <img src="images/profile2.jpg"
+                         alt="Personal profile website">
+
+                    <div class="project-content">
+                        <p class="project-number">PROJECT 02</p>
+
+                        <h3>Personal Profile Website</h3>
+
+                        <p>
+                            A responsive personal profile website created
+                            using semantic HTML5 and CSS for CSE-2340.
+                        </p>
+
+                        <a href="#about">
+                            Explore Website →
+                        </a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+
+            <div class="section-title">
+                <p>LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <p>
+                        Have a question or want to get in touch?
+                        Feel free to send me a message.
+                    </p>
+
+                    <a href="mailto:shadmanofficial3458@gmail.com">
+                        shadmanofficial3458@gmail.com
+                    </a>
+
+                </div>
+
+
+                <form>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+
+                    <label for="message">Message</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              required></textarea>
+
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer class="site-footer">
-        <div class="wrap">
-            <p>&copy; 2026 Mohammad Shadman Abedin. All rights reserved.</p>
-        </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mohammad Shadman Abedin</p>
     </footer>
 
 </body>
-
 </html>
