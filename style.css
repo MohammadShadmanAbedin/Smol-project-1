@@ -169,21 +169,6 @@ nav a:hover { color: var(--brick); }
   align-items: flex-start;
 }
 
-.avatar {
-  flex: 0 0 auto;
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  background: var(--teal);
-  color: var(--white);
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .about-text { max-width: 62ch; }
 
 /* ---------------------------------------------
@@ -245,17 +230,6 @@ nav a:hover { color: var(--brick); }
   width: 100%;
   height: 190px;
   object-fit: cover;
-}
-
-.project-placeholder {
-  height: 190px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--teal);
-  color: var(--white);
-  font-family: var(--font-display);
-  font-size: 2.4rem;
 }
 
 .project-body { padding: 20px 22px; }
