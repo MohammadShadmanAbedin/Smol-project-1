@@ -53,10 +53,10 @@ nav a {
   color: white;
   font-size: 15px;
 }
-
+/* 
 nav a:hover {
   color: #ff7a59;
-}
+} */
 
 
 /* Hero */
@@ -66,11 +66,8 @@ nav a:hover {
   margin: auto;
   padding: 80px 30px;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
 
-  align-items: center;
+  text-align: center;
 }
 
 .intro {
@@ -88,6 +85,8 @@ nav a:hover {
 .hero-text>p:not(.intro) {
   color: #666;
   max-width: 500px;
+  margin: 0 auto;
+  align-items:center;
 }
 
 .button {
@@ -105,6 +104,11 @@ nav a:hover {
 .button:hover {
   background-color: #e85d3f;
 }
+
+/* .hero-image img {
+  width: 100%;
+  border-radius: 12px;
+} */
 
 
 /* Common Section Heading */
